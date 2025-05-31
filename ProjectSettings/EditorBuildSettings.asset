@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/FlyingOver.unity
+    guid: 0ffbe97572bca63439e69d30712b7850
+  - enabled: 1
+    path: Assets/Scenes/FlyingUnder.unity
+    guid: d8d62d726b785de4cb304b68196edb82
+  - enabled: 1
+    path: Assets/Scenes/FlyingThrough.unity
+    guid: 8faf24f80cb8e984d980ea0316dcc69e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
