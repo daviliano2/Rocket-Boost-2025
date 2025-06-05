@@ -104,8 +104,8 @@ MonoBehaviour:
       m_Action: Rotation
       m_Flags: 8
     m_Flags: 0
-  thrustStrength: 2000
-  rotationStrength: 100
+  thrustStrength: 2500
+  rotationStrength: 175
   mainEngine: {fileID: 8300000, guid: 4f546b3eecb2add469146317521bc88f, type: 3}
   mainBoosterParticles: {fileID: 897883068971241657}
   leftBoosterParticles: {fileID: 6695369406384404055}

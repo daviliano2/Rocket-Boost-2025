@@ -25,10 +25,10 @@ public class CollisionHandler : MonoBehaviour
         audioSource.Stop();
     }
 
-    // void Update()
-    // {
-    //     Debugkeys();
-    // }
+    void Update()
+    {
+        Debugkeys();
+    }
 
 
     void LoadNextLevel()
@@ -93,15 +93,17 @@ public class CollisionHandler : MonoBehaviour
         }
     }
 
-    // void Debugkeys()
-    // {
-    //     if (Keyboard.current.lKey.wasPressedThisFrame)
-    //     {
-    //         LoadNextLevel();
-    //     }
-    //     else if (Keyboard.current.cKey.wasPressedThisFrame)
-    //     {
-    //         isCollidable = !isCollidable;
-    //     }
-    // }
+    void Debugkeys()
+    {
+        if (Keyboard.current.lKey.wasPressedThisFrame)
+        {
+            Debug.Log("Loading next level.");
+            LoadNextLevel();
+        }
+        else if (Keyboard.current.cKey.wasPressedThisFrame)
+        {
+            Debug.Log("Collision is active: " + isCollidable);
+            isCollidable = !isCollidable;
+        }
+    }
 }
